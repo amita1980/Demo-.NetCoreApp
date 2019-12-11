@@ -28,6 +28,8 @@ namespace TestingCoreApplication
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello Cloud Atlas Team!!!This is a .Net Core example.");
+                await context.Response.WriteAsync("Please enter the team details.");
+
             });
         }
     }
